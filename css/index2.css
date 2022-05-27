@@ -1,0 +1,107 @@
+.info-box{
+  position: relative;
+  margin: 419px auto 0;
+  width: 1200px;
+  height: 115px;
+  background:url(../img/index2/bg_header.png) no-repeat ;
+}
+.demo {
+    position: relative;
+    width: 732px;
+    height: 100px;
+    color: #a6afbc;
+    padding: 8px 20px 0;
+}
+.demo p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-indent: 20px;
+}
+.demo ul {
+    list-style: none;
+    position: relative;
+    margin: 0 0 0 15px;
+    padding: 0;
+    border: 0;
+}
+.demo ul li {
+    float: left;
+    position: relative;
+    width: 69px;
+    height: 69px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.small {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.large {
+    display: none;
+}
+.demo .active {
+    width: 224px;
+}
+.active .large {
+    display: inline-block;
+}
+.active .small {
+    display: none;
+}
+.more-hero{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  line-height: 15px;
+  padding: 30px 10px 10px;
+  color: #626a7a;
+}
+.login-box{
+  width: 408px;
+  padding: 12px 10px;
+  position: relative;
+}
+.login-box .ava-login{
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  width: 106px;
+  height: 120px;
+  display: block;
+  background-position: -110px -174px;
+}
+
+.login-box .ava-login img{
+  margin: 24px 0 0 15px;
+  border-radius: 10px;
+}
+.login-box .db{
+  position: absolute;
+  top: 81px;
+  left: 68px;
+  width: 21px;
+  height: 20px;
+  padding-left: 3px;
+  background-position: -331px -105px;
+  color: #ffffff;
+}
+ .spr{
+   background: url(../img/footer-img/spr.png) no-repeat;
+ } 
+.unlogin{
+  margin-top: 32px;
+  color: #b3bbc5;
+  width: 300px;
+  margin-left: 115px;
+  float: left;
+}
+.unlogin .user-name{
+  margin-bottom: 20px;
+}
+.unlogin .user-name a{
+  color: #8ea0b0;
+  margin-left: 10px;
+}
